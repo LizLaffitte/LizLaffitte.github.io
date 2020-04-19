@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra MVC Portfolio Project"
-date:       2020-02-15 20:49:07 +0000
+date:       2020-02-15 15:49:08 -0500
 permalink:  sinatra_mvc_portfolio_project
 ---
 
@@ -11,6 +11,7 @@ Starting on my second portfolio project for Flatiron, I felt much more prepared 
 My first Flatiron project, a Hogwarts CLI gem, took me a long time to build and refactor, because I tried to accomplish all my ideas at once. My strategy this time around was different: first achieve a minimum viable product, then add features, styling and error messages. I started by sketching out my models, associations, tables and routes.
 
 **Models & ActiveRecord Associations**
+
 I started with two models: Users and Events. Users can have many events and an event belongs to a user. Users must have an email address, username and password. Events must have a name, location and start datetime. Optionally, they can have an end date and time as well as a description.
 
 **Tables & Active Record Migrations**
